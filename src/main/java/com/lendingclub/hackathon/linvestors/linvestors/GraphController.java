@@ -17,7 +17,8 @@ public class GraphController {
     @ResponseBody
     public String getURL(@RequestBody String json) {
         log.log(Level.INFO, "json text-->{0}",json);
-        return "http://algunra-url-a-la-grafica";
+        //{ fulfillmentText: 'http://algunra-url-a-la-grafica' }
+       return "{ fulfillmentText: 'http://algunra-url-a-la-grafica' }";
     }
 
 }
